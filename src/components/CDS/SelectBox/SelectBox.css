@@ -1,0 +1,64 @@
+/*
+* -------------------------------------------------
+*
+* Select box
+*
+* -------------------------------------------------
+*/
+.selectBoxContainer {
+  position: relative;
+  text-align: left;
+  margin-bottom: 25px; }
+
+.selectBoxContainer:after {
+  position: absolute;
+  top: 50px;
+  right: 6px;
+  content: "\f000";
+  font-family: "DF MX Scotiabank Canvas";
+  font-size: 2rem;
+  color: #333333;
+  line-height: 0;
+  pointer-events: none; }
+
+.selectBoxContainer select {
+  width: 100%;
+  padding: 8px 0 4px 0;
+  font-family: "Scotia";
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #D2D2D2;
+  margin-top: 30px;
+  padding-right: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  letter-spacing: -0.5px; }
+
+.selectBoxContainer select:focus {
+  outline: none;
+  border-bottom: 1px solid #009DD6; }
+
+.selectBoxContainer label {
+  position: absolute;
+  top: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000 !important;
+  pointer-events: none;
+  margin-bottom: 2%;
+  left: 1px; }
+
+.selectBoxContainer select::-ms-expand {
+  display: none; }
+
+.inputFont {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 200; }

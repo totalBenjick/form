@@ -1,0 +1,57 @@
+.cds3ButtonSecondary {
+    width: 100%;
+    max-width: 303px;
+    height: 56px;
+    min-width: 117px;
+    min-height: 56px;
+    padding: 2rem 0;
+    border: 1px solid #ED0722;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-family: "Scotia";
+    font-weight: 500 !important;
+    font-size: 1.4rem !important;
+    color: #ED0722;
+    text-align: center;
+    line-height: 1.6rem !important;
+    letter-spacing: -0.25px !important;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cds3ButtonSecondary:hover {
+    color: #FFF;
+    background-color: #ED0722;
+}
+
+.cds3ButtonSecondaryLink,
+.cds3ButtonSecondaryLink:link,
+.cds3ButtonSecondaryLink:visited {
+    text-align: center;
+    border: 1px solid #ED0722;
+    border-radius: 8px;
+    padding: 2rem 0;
+    color: #ED0722;
+    cursor: pointer;
+    width: 100%;
+    max-width: 303px;
+    height: 56px;
+    min-width: 117px;
+    min-height: 56px;
+    font-family: "Scotia";
+    font-weight: 500 !important;
+    font-size: 1.6rem !important;
+    line-height: 1.6rem !important;
+    letter-spacing: -0.25px !important;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+.cds3ButtonSecondaryLink:hover,
+.cds3ButtonSecondaryLink:visited:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ED0722;
+}

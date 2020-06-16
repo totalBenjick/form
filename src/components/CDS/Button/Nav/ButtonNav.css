@@ -1,0 +1,67 @@
+/*
+* -------------------------------------------------
+*
+* Navigation buttons
+*
+* -------------------------------------------------
+*/
+.cds3ButtonNavBack,
+.cds3ButtonNavBack:active,
+.cds3ButtonNavBack:focus {
+  border: none;
+  background: none;
+  color: #333;
+  font-family: "Scotia";
+  font-weight: 500 !important;
+  font-size: 1.6rem !important;
+  line-height: 18px !important;
+  letter-spacing: 0px !important;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0; }
+
+.cds3ButtonNavBack > i {
+  vertical-align: middle;
+  font-size: 4.5rem; }
+
+.cds3ButtonNavBack:hover,
+.cds3ButtonNavBack:visited:hover {
+  text-decoration: none;
+  color: #757575; }
+
+.cds3ButtonNavNext,
+.cds3ButtonNavNext:active,
+.cds3ButtonNavNext:focus {
+  border: none;
+  background: none;
+  color: #ED0722;
+  font-family: "Scotia";
+  font-weight: 500 !important;
+  font-size: 1.6rem !important;
+  line-height: 18px !important;
+  letter-spacing: 0px !important;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0; }
+
+.buttonNotActive {
+  color: lightgray !important;
+  pointer-events: none;
+  cursor: no-drop; }
+
+.cds3ButtonNavNext > i {
+  vertical-align: middle;
+  font-size: 4.5rem;
+  color: #FFF;
+  background-color: #ED0722;
+  border-radius: 50%; }
+
+.cds3ButtonNavNext:hover,
+.cds3ButtonNavNext:visited:hover {
+  text-decoration: none;
+  color: #D5061E; }
+
+.cds3ButtonNavNext:hover > i,
+.cds3ButtonNavNext:visited:hover > i,
+.cds3ButtonNavNext > i:hover {
+  background-color: #D5061E; }

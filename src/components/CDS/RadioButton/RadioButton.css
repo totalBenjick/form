@@ -1,0 +1,202 @@
+/*
+* -------------------------------------------------
+*
+* Radiobox
+*
+* -------------------------------------------------
+*/
+.radioButtonContainer {
+  margin-bottom: 25px;
+  margin-top: 24px; }
+
+.filled {
+  top: -20px !important;
+  font-size: 1.6rem !important;
+  color: #000 !important;
+  font-weight: 700 !important; }
+
+.radioButtonItem {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  line-height: 24px !important;
+  letter-spacing: 0.25px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 24px; }
+
+.radioButtonBroadItem {
+  height: 49px; }
+
+/* Hide the browser's default radio button */
+.radioButtonItem input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* Create a custom radio button */
+.radioButtonItem .radioButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  width: 28px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 1px solid #757575; }
+
+.radioButtonItem.error .radioButton {
+  border: 1px solid #CB061D; }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radioButtonItem .radioButton:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the indicator (dot/circle) when checked */
+.radioButtonItem input:checked ~ .radioButton:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.radioButtonItem .radioButton:after {
+  top: 10px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white; }
+
+.radioButtonItem input:checked ~ .radioButton {
+  border: none;
+  background-color: #009DD6; }
+
+.radioButtonItem input:disabled ~ .radioButton {
+  border: 1px solid #D6D6D6;
+  background-color: #F6F6F6; }
+
+.radioButtonItem input:checked:disabled ~ .radioButton {
+  border: 1px solid #D6D6D6;
+  background-color: #F6F6F6; }
+
+.radioButtonItem input:checked:disabled ~ .radioButton:after {
+  background: #D6D6D6; }
+
+.filledMexican_inline {
+  top: -20px !important;
+  font-size: 1.6rem !important;
+  color: #000 !important;
+  font-weight: 700 !important; }
+
+.radioButtonContainer_inline {
+  margin-bottom: 25px;
+  margin-top: 24px; }
+
+.radioButtonItem_inline {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  line-height: 24px !important;
+  letter-spacing: 0.25px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 24px; }
+
+/* Hide the browser's default radio button */
+.radioButtonItem_inline input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* Create a custom radio button */
+.radioButtonItem_inline .radioButton_inline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  width: 28px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 1px solid #757575; }
+
+.radioButtonItem_inline.error .radioButton_inline {
+  border: 1px solid #CB061D; }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radioButtonItem_inline .radioButton_inline:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the indicator (dot/circle) when checked */
+.radioButtonItem_inline input:checked ~ .radioButton_inline:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.radioButtonItem_inline .radioButton_inline:after {
+  top: 10px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white; }
+
+.radioButtonItem_inline input:checked ~ .radioButton_inline {
+  border: none;
+  background-color: #009DD6; }
+
+.radioButtonItem_inline input:disabled ~ .radioButton_inline {
+  border: 1px solid #D6D6D6;
+  background-color: #F6F6F6; }
+
+.radioButtonItem_inline input:checked:disabled ~ .radioButton_inline {
+  border: 1px solid #D6D6D6;
+  background-color: #F6F6F6; }
+
+.radioButtonItem_inline input:checked:disabled ~ .radioButton_inline:after {
+  background: #D6D6D6; }
+
+@media (max-width: 767px) {
+  .radio_container_inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+  .filledMexican_inline {
+    display: inline-block; }
+  .radioButtonContainer_inline {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: inline-block; }
+  .radioButtonItem_inline {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-weight: 400 !important;
+    font-size: 1.6rem !important;
+    line-height: 24px !important;
+    letter-spacing: 0.25px !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 24px; } }
+
+@media (max-width: 359px) {
+  .filledMexican_inline {
+    max-width: 40%;
+    display: inline-block; } }

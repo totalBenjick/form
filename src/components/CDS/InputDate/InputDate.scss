@@ -1,0 +1,22 @@
+.inputDateContainer {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: left;
+    & > label{
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+    
+}
+
+.icon{
+    top: 68px !important;
+}
+
+.inputDateField{
+    &>div,
+    input{
+        margin-bottom: 0px !important;
+    }
+}
+    

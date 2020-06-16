@@ -1,0 +1,88 @@
+/*
+* ==================================================
+*
+* SwitchBoxPill
+*
+* ==================================================
+*/
+.switchBoxPill,  .switchBoxPill div:last-of-type {
+    text-align: left !important;
+}
+
+.switch-title {
+    margin-bottom: 6px;
+}
+
+.switchBoxPill input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switchBoxPill label {
+    display: inline-block;
+    width: 72px;
+    height: 46px;
+    background-color: #FFF;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: none;
+    padding: 12px 0;
+    border: 1px solid #333333;
+    margin: 18px 5rem 0 auto;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 30px;
+    line-height: 20px;
+}
+
+.switchBoxPill label:hover {
+    cursor: pointer;
+}
+
+.switchBoxPill input:checked + label {
+    background-color: #333333;
+    color: #FFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.switchBoxPill label:first-of-type {
+  margin-right: 18px;
+}
+
+.switchBoxPill label:last-of-type {
+  margin-left: 18px;
+}
+
+@media only screen and (min-width : 768px) {
+  .switchBoxPill label {
+    display: inline-block;
+    width: 72px;
+    height: 46px;
+    background-color: #FFF;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: none;
+    padding: 12px 0;
+    border: 1px solid #333333;
+    margin: 18px auto 0 auto;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 30px;
+    line-height: 20px;
+  }
+}

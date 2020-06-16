@@ -1,0 +1,107 @@
+/*
+* -------------------------------------------------
+*
+* Checkbox
+*
+* -------------------------------------------------
+*/
+.checkBoxContainer {
+  display: block;
+  position: relative;
+  padding-left: 38px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  line-height: 24px !important;
+  letter-spacing: 0.25px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.checkBoxContainer a, .checkBoxContainer a:hover {
+  color: #009DD6;
+  font-weight: 500;
+  text-decoration: none; }
+
+/* Hide the browser's default radio button */
+.checkBoxContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* Create a custom radio button */
+.checkBoxContainer .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #FFF;
+  border-radius: 4px;
+  border: 1px solid #757575; }
+
+.checkBoxContainer .checkmark.cBError {
+  border: 1px solid #CB061D; }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkBoxContainer .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the indicator (dot/circle) when checked */
+.checkBoxContainer input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.checkBoxContainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2.3px 2.3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 2px; }
+
+.checkBoxContainer input:checked ~ .checkmark {
+  border: none;
+  background-color: #009DD6; }
+
+.checkBoxContainer input:disabled ~ .checkmark {
+  border: 1px solid #D6D6D6;
+  background-color: #F6F6F6; }
+
+.checkBoxContainer input:checked:disabled ~ .checkmark {
+  border: 1px solid #D6D6D6;
+  background-color: #F6F6F6; }
+
+.checkBoxContainer input:checked:disabled ~ .checkmark:after {
+  border-color: #D6D6D6; }
+
+.checkBoxContainer .moreDetails > span:nth-child(1) {
+  display: block;
+  color: #009DD6;
+  margin-top: 0.5rem;
+  font-size: 1.6rem !important;
+  font-weight: 700 !important; }
+
+.checkBoxContainer .moreDetails > span:nth-child(1) > i {
+  margin-left: 1rem;
+  font-size: 2rem;
+  vertical-align: top; }
+
+.checkBoxContainer .moreDetails > span:nth-child(2) {
+  display: block;
+  cursor: default;
+  color: black; }
+
+.checkBoxContainer .details {
+  font-size: 1.6rem;
+  margin-top: 2.5px;
+  color: #333; }

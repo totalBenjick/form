@@ -1,0 +1,60 @@
+/*
+* -------------------------------------------------
+*
+* Primary button
+*
+* -------------------------------------------------
+*/
+.cds3ButtonPrimaryLink {
+  min-height: 1.5rem !important;
+  width: 100% !important;
+  max-width: 303px;
+  padding: 2rem 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #ED0722;
+  font-family: "Scotia";
+  font-weight: 500 !important;
+  font-size: 1.6rem !important;
+  color: #FFF;
+  text-align: center;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.25px !important;
+  overflow: hidden;
+  cursor: pointer; }
+  .cds3ButtonPrimaryLink.disabled {
+    background: white;
+    color: #E2E2E2;
+    border: 1px #E2E2E2 solid;
+    pointer-events: none; }
+
+.cds3ButtonPrimaryLink:hover {
+  background-color: #BD051B; }
+
+.cds3ButtonPrimaryLink,
+.cds3ButtonPrimaryLink:link,
+.cds3ButtonPrimaryLink:visited {
+  display: inline-block;
+  min-height: 1.5rem !important;
+  width: 100% !important;
+  max-width: 303px;
+  padding: 2rem 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #ED0722;
+  font-family: "Scotia";
+  font-weight: 500 !important;
+  font-size: 1.6rem !important;
+  color: #FFF;
+  text-align: center;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.25px !important;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer; }
+
+.cds3ButtonPrimaryLink:hover,
+.cds3ButtonPrimaryLink:visited:hover {
+  color: #FFF;
+  text-decoration: none;
+  background-color: #BD051B; }
